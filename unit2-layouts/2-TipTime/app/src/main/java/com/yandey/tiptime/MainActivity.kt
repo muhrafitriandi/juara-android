@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
                 viewModel.tip = ceil(viewModel.tip)
             }
             displayResult()
-            //
         }
     }
 
