@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white_smoke</item>
+        <item name="colorPrimaryVariant">@color/black_pearl</item>
+        <item name="colorOnPrimary">@color/nobel</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white_smoke</item>
+        <item name="colorSecondaryVariant">@color/nobel</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/black_pearl</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black_pearl</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">270dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:textColorHint">@color/sonic_silver</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textColor">@color/white_smoke</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">@color/black_pearl</item>
+    </style>
+</resources>
